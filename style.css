@@ -1,0 +1,210 @@
+body{
+    background: linear-gradient(90deg,#00ffff,#0099ff);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+*{
+    text-decoration: none;
+}
+.navbar p,#navitems{
+    display: inline;
+}
+.navbar p{
+    font-size: 27px;
+    margin: 10px 550px 15px 110px;
+}
+.navbar{
+    background: linear-gradient(90deg,#00ffff,#0099ff);
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+}
+#navitems{
+    margin-top: 17px;
+    top: 0;
+}
+#navitems a{
+    color: black;
+    margin-left: 20px;
+    font-weight: bold;
+    padding: 10px 12px 10px 12px;
+    border-radius: 8px;
+}
+#navitems #hireme{
+    color: white;
+    background-color: black;
+    font-weight: 500;
+}
+#navitems a:hover{
+    background-color: #31699e;
+    color: white;
+}
+.data{
+    margin: 220px 0 0 110px;
+}
+.data h2{
+    color: #ff024a;
+}
+.data button{
+    width: 140px;
+    height: 40px;
+    border-radius: 6px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+#hire{
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+}
+button ion-icon{
+    vertical-align: top;
+}
+.navbar.sticky.logo{
+    opacity: 0;
+}
+.logo{
+    margin: 18px 0 0 1px;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    transition: opacity 0.3s;
+}
+.logo ion-icon{
+    margin-right: 22px;
+    z-index: 2;
+    color: black;
+}
+#myimg img,.circle2,.circle3{
+    border-radius: 50%;
+}
+.circle2{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(53, 54, 79);
+    margin-left: 730px;
+    margin-top: 330px;
+}
+.circle3{
+    width: 110px;
+    height: 110px;
+    background-color: rgb(53, 54, 79);
+    margin-left: 1111px;
+    margin-top: -360px;
+}
+#myimg img{
+    width: 400px;
+    margin-left: 780px;
+    margin-top: -400px;
+}
+.skills h2{
+    color: #6c7a88;
+    font-size: 28px;
+    margin-top: 100px;
+    margin-left: 100px;
+    padding-top: 30px;
+}
+hr{
+    width: 1150px;
+    margin-top: -20px;
+    margin-left: 220px;
+}
+.skills{
+    background-color: #fff;
+    height: 660px;
+}
+.skills p{
+    margin-left: 100px;
+}
+.skill{
+    margin-left: 250px;
+    margin-top: 120px;
+}
+.skill-name{
+    font-size: 1.2em;
+    font-weight: 650;
+    margin: 20px 0 5px 0;
+}
+.skill-name ion-icon{
+    vertical-align:top;
+}
+.skill-bar{
+    width: 30%;
+    height: 7px;
+    background-color: #bcbcbc;
+    border-radius: 5px;
+}
+.skill-progress{
+    height: 100%;
+    background-color: #4CAF50;
+    border-radius: 5px;
+    transition: width 0.5s ease;
+}
+.about-me{
+    width: 34%;
+    margin-left: 700px;
+    margin-top: -380px;
+}
+.about-me h2{
+    color: #2976ce;
+    font-size: 2.3em;
+}
+.about-me p{ 
+    font-size: 1.2em;
+    font-family: serif;
+}
+.projects h2{
+    margin-left: 110px;
+    font-size: 2.2em;
+    color: #2e3339;
+}
+.projects{
+    display: flex;
+    text-align: center;
+    margin-bottom: 150px;
+}
+.projects img{
+    border-radius: 10px;
+}
+.projects h3{
+    font-size: 1.7em;
+}
+.ytclone h3{
+    margin-top: 160px;
+}
+.weather{
+    margin-top: 133px;
+    margin-left: 200px;
+}
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+footer p{
+    margin-top: 10px;
+    display: inline;
+    padding-left: 10px;
+}
+footer .logo{
+    margin-top: 7px;
+}
+.logos{
+    margin: 18px 0 0 1px;
+    font-size: 25px;
+    position: relative;
+    z-index: 1;
+    transition: opacity 0.3s;
+}
+.logos ion-icon{
+    margin-right: 22px;
+    z-index: 2;
+    color: white;
+}
