@@ -6,9 +6,6 @@ body{
 *{
     text-decoration: none;
 }
-.navbar p,#navitems{
-    display: inline;
-}
 .navbar p{
     font-size: 27px;
     margin: 10px 500px 15px 110px;
@@ -162,7 +159,7 @@ hr{
     transition: width 0.5s ease;
 }
 .about-me{
-    width: 34%;
+    width: 33%;
     margin-left: 700px;
     margin-top: -380px;
 }
