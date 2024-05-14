@@ -226,7 +226,8 @@ footer .logo{
 .details input{
     height: 38px;
     border-radius: 7px;
-    text-indent: 10px;
+    text-indent: 15px;
+    font-size: 1.1em;
     border: 1px solid black;
 }
 label{
@@ -236,15 +237,15 @@ label{
 }
 .contact h1{
     color: #3a0a0a;
-    padding-top: 20px;
+    padding: 20px;
 }
 textarea{
-    height: 100px;
     border-radius: 8px;
     border: 1px solid black;
     text-indent: 3px;
+    font-size: 1.4em;
 }
-.details #send{
+.details button{
     margin-top: 20px;
     width: 120px;
     height: 40px;
@@ -255,7 +256,8 @@ textarea{
     color: white;
     margin-bottom: 85px;
     border: 1px solid black;
+    cursor: pointer;
 }
 .contact{
-    background-color: grey;
+    background-color: rgb(135, 167, 169);
 }
