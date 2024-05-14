@@ -219,3 +219,43 @@ footer .logo{
     z-index: 2;
     color: white;
 }
+.details{
+    display: grid;
+    width: 25%;
+}
+.details input{
+    height: 38px;
+    border-radius: 7px;
+    text-indent: 10px;
+    border: 1px solid black;
+}
+label{
+    font-size: 1.2em;
+    text-align: left;
+    margin-top: 22px; 
+}
+.contact h1{
+    color: #3a0a0a;
+    padding-top: 20px;
+}
+textarea{
+    height: 100px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-indent: 3px;
+}
+.details #send{
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: large;
+    border-radius: 6px;
+    margin-left: 125px;
+    background-color: #254d69;
+    color: white;
+    margin-bottom: 85px;
+    border: 1px solid black;
+}
+.contact{
+    background-color: grey;
+}
