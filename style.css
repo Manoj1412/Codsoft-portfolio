@@ -261,3 +261,6 @@ textarea{
 .contact{
     background-color: rgb(135, 167, 169);
 }
+.details button:hover{
+    background-color: black;
+}
