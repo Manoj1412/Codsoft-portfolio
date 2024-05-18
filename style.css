@@ -37,6 +37,8 @@ body{
 #navitems a:hover{
     background-color: #31699e;
     color: white;
+    transition: .7s;
+    box-shadow: 5px 5px 10px black;
 }
 .data{
     margin: 220px 0 0 110px;
@@ -74,23 +76,19 @@ body{
     background-color: black;
     color: white;
     margin-right: 15px;
+    box-shadow: 5px 5px 10px grey;
 }
-button ion-icon{
+#cv button{
     vertical-align: top;
-}
-.navbar.sticky.logo{
-    opacity: 0;
+    box-shadow: 7px 7px 10px black;
 }
 .logo{
     margin: 18px 0 0 1px;
     font-size: 25px;
-    position: relative;
-    z-index: 1;
-    transition: opacity 0.3s;
 }
 .logo ion-icon{
-    margin-right: 22px;
-    z-index: 2;
+    margin-right: 11px;
+    margin-left: 11px;
     color: black;
 }
 #myimg img,.circle2,.circle3{
@@ -229,6 +227,7 @@ footer .logo{
     text-indent: 15px;
     font-size: 1.1em;
     border: 1px solid black;
+    box-shadow: 7px 7px 15px black;
 }
 label{
     font-size: 1.2em;
@@ -240,6 +239,7 @@ label{
     padding: 20px;
 }
 textarea{
+    box-shadow: 7px 7px 15px black;
     border-radius: 8px;
     border: 1px solid black;
     text-indent: 3px;
@@ -263,4 +263,5 @@ textarea{
 }
 .details button:hover{
     background-color: black;
+    transition: .5s;
 }
