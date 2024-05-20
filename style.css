@@ -31,6 +31,7 @@ section{
 }
 #navitems a{
     color: black;
+    display: inline;
     margin-left: 20px;
     font-weight: bold;
     padding: 10px 12px 10px 12px;
