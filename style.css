@@ -196,6 +196,38 @@ hr{
 .ytclone h3{
     margin-top: 160px;
 }
+.ytclone button{
+    width: 100%;
+    margin-top: 10px;
+    height: 40px;
+    font-size: large;
+    display: block;
+    border-radius: 7px;
+    background-color: #202033;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.ytclone button:hover{
+    background-color: #31699e;
+    font-size: larger;
+}
+.weather button{
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    display: block;
+    font-size: large;
+    border-radius: 7px;
+    background-color: #202033;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.weather button:hover{
+    background-color: #31699e;
+    font-size: larger;
+}
 .weather{
     margin: 133px 0 0 220px;
 }
