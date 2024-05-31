@@ -45,7 +45,7 @@ section{
 #navitems a:hover{
     background-color: #31699e;
     color: white;
-    transition: .7s;
+    transition: .6s;
     box-shadow: 5px 5px 10px black;
 }
 .data{
@@ -99,6 +99,9 @@ section{
     margin-left: 15px;
     color: black;
 }
+.logo ion-icon:hover,.logos ion-icon:hover{
+    color: blue;
+}
 #myimg img,.circle2,.circle3{
     border-radius: 50%;
 }
@@ -120,6 +123,7 @@ section{
     width: 400px;
     margin-left: 780px;
     margin-top: -400px;
+    box-shadow: 10px 10px 20px rgb(6, 6, 136),-8px -8px 20px rgb(255, 0, 247);
 }
 .skills h2{
     color: #6c7a88;
@@ -189,19 +193,20 @@ hr{
 }
 .projects img{
     border-radius: 10px;
+    display: block;
 }
 .projects h3{
-    font-size: 1.7em;
+    font-size: 1.6em;
 }
 .ytclone h3{
     margin-top: 160px;
 }
 .ytclone button{
-    width: 100%;
-    margin-top: 10px;
+    width: 43%;
+    margin: 10px;
     height: 40px;
-    font-size: large;
-    display: block;
+    font-size: 1.1em;
+    display: inline-block;
     border-radius: 7px;
     background-color: #202033;
     color: white;
@@ -213,10 +218,11 @@ hr{
     font-size: larger;
 }
 .weather button{
-    margin-top: 10px;
-    width: 100%;
+    margin: 10px;
+    margin-bottom: 35px;
+    width: 43%;
     height: 40px;
-    display: block;
+    display: inline-block;
     font-size: large;
     border-radius: 7px;
     background-color: #202033;
@@ -227,9 +233,10 @@ hr{
 .weather button:hover{
     background-color: #31699e;
     font-size: larger;
+    transition: .3s;
 }
 .weather{
-    margin: 133px 0 0 220px;
+    margin: 130px 0 0 220px;
 }
 footer{
     text-align: center;
