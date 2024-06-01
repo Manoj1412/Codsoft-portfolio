@@ -180,6 +180,7 @@ hr{
 .about-me p{ 
     font-size: 1.14em;
     font-family: Verdana;
+    word-spacing: 5px;
 }
 .projects h2{
     margin-left: 110px;
@@ -281,7 +282,7 @@ label{
     margin-top: 22px; 
 }
 .contact h1{
-    color: #3a0a0a;
+    color: #1d0404;
     padding: 20px;
 }
 textarea{
@@ -305,7 +306,7 @@ textarea{
     cursor: pointer;
 }
 .contact{
-    background-color: rgb(135, 167, 169);
+    background-color: rgb(130, 147, 169);
 }
 .details button:hover{
     background-color: black;
