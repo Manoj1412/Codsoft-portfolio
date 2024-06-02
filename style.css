@@ -35,7 +35,10 @@ section{
     margin-left: 20px;
     font-weight: bold;
     padding: 10px 12px 10px 12px;
+}
+#resume{
     border-radius: 8px;
+    box-shadow: 3px 3px 7px rgb(61, 61, 111);
 }
 #navitems #resume{
     color: white;
@@ -43,10 +46,7 @@ section{
     font-weight: 500;
 }
 #navitems a:hover{
-    background-color: #31699e;
-    color: white;
-    transition: .6s;
-    box-shadow: 5px 5px 10px black;
+    border-bottom: 1.3px solid black;
 }
 .data{
     margin: 229px 0 0 110px;
