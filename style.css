@@ -47,6 +47,7 @@ section{
 }
 #navitems a:hover{
     border-bottom: 1.3px solid black;
+    color: white;
 }
 .data{
     margin: 229px 0 0 110px;
@@ -319,7 +320,7 @@ textarea{
     border: none;
     color: #fff;
     cursor: pointer;
-    transition: all .4s ease;
+    transition: all .5s ease;
   }
   #cv:active,#hire:active {
     transform: scale(0.96);
