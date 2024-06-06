@@ -15,7 +15,7 @@ section{
 }
 .navbar p{
     font-size: 27px;
-    margin: 10px 10px 15px 110px;
+    margin: 10px 10px 15px 7%;
 }
 .navbar{
     background: linear-gradient(90deg,#00ffff,#0099ff);
@@ -36,12 +36,9 @@ section{
     font-weight: bold;
     padding: 10px 12px 10px 12px;
 }
-#resume{
-    border-radius: 8px;
-    box-shadow: 3px 3px 7px rgb(61, 61, 111);
-}
 #navitems a:hover{
     border-bottom: 1.3px solid black;
+    border-top: 1.3px solid black;
     color: white;
 }
 .data{
@@ -80,7 +77,7 @@ section{
 #hire{
     background-color: black;
     color: white;
-    box-shadow: 5px 5px 10px grey;
+    box-shadow: 5px 5px 10px rgb(78, 48, 48);
 }
 #cv button{
     vertical-align: top;
@@ -247,9 +244,6 @@ footer p{
     display: inline;
     padding-left: 10px;
 }
-footer .logo{
-    margin-top: 7px;
-}
 .logos{
     margin: 18px 0 0 1px;
     font-size: 23px;
@@ -314,7 +308,6 @@ textarea{
     padding: 10px 22px;
     border-radius: 6px;
     border: none;
-    color: #fff;
     cursor: pointer;
     transition: all .5s ease;
   }
