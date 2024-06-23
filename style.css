@@ -288,6 +288,9 @@ label{
     color: #1d0404;
     padding: 20px;
 }
+.contact p{
+    font-size: 1.1em;
+}
 textarea{
     box-shadow: 7px 7px 15px black;
     border-radius: 8px;
@@ -304,7 +307,7 @@ textarea{
     border-radius: 6px;
     background-color: #254d69;
     color: white;
-    margin-bottom: 85px;
+    margin-bottom: 45px;
     border: 1px solid black;
     cursor: pointer;
 }
